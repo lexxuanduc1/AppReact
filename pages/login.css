@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.form{ 
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px;
+}
+.nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background-color: black;
+}
+.rightli{
+    float: right;
+    margin-right: 10px;
+}
+.avatar{
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.signoutmenu{
+    display: none;
+}
+li:hover .signoutmenu{
+    display: block;
+    position: absolute;
+    font-size: small;
+}

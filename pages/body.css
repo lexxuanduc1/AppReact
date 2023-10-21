@@ -1,0 +1,18 @@
+.body{
+    height: 1000px;
+}
+.left{
+    float:left;
+    width: max-content;
+    margin-right: 10px;
+    
+}
+.right{
+    float:left;
+    width: 70%;
+    padding : 20px 20px;
+}
+.right .gap-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
